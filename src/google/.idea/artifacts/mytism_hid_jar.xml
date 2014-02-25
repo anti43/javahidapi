@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="mytism-hid:jar">
+    <output-path>$PROJECT_DIR$/../../dist</output-path>
+    <root id="root">
+      <element id="archive" name="mytism-hid.jar">
+        <element id="module-output" name="mytism-hid" />
+      </element>
+      <element id="library" level="application" name="groovy-2.2.1" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../lib/hidapi-1.1.jar" />
+    </root>
+  </artifact>
+</component>
